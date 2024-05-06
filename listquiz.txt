@@ -1,0 +1,154 @@
+What is the output of the following code
+
+list1 = ['xyz', 'zara', 'PYnative']
+print (max(list1))
+
+A. PYnative
+B. zara
+2. What is the output of the following
+
+aList = [5, 10, 15, 25]
+print(aList[::-2])
+
+A. [15, 10, 5]
+B. [10, 5]
+C. [25, 10]
+
+3. What is the output of the following list operation
+
+sampleList = [10, 20, 30, 40, 50]
+print(sampleList[-2])
+print(sampleList[-4:-1])
+
+A. 40
+B. [20, 30, 40]
+C. IndexError: list index out of range
+
+4. What is the output of the following code
+
+aList = ["PYnative", [4, 8, 12, 16]]
+print(aList[0][1])    
+print(aList[1][3])
+
+A. P 8
+B. Y 16
+C. P
+D. 12
+E. Y
+F. 16
+
+6. Select all the correct options to copy a list
+
+aList = ['a', 'b', 'c', 'd']
+
+A. newList = copy(aList)
+B. newList = aList.copy()
+C. newList.copy(aList)
+D.newList = list(aList)
+
+7. What is the output of the following list function?
+
+sampleList = [10, 20, 30, 40, 50]
+sampleList.pop()
+print(sampleList)
+
+sampleList.pop(2)
+print(sampleList)
+
+A. [20, 30, 40, 50]
+     [10, 20, 40]
+B. [10, 20, 30, 40]
+     [10, 20, 30, 50]
+C. [10, 20, 30, 40]
+     [10, 20, 40]
+
+8. What is the output of the following code?
+
+sampleList = [10, 20, 30, 40]
+del sampleList[0:6]
+print(sampleList)
+
+A.  []
+B.  list index out of range.
+C. [10, 20]
+
+9. What is the output of the following
+
+aList = [1, 2, 3, 4, 5, 6, 7]
+pow2 =  [2 * x for x in aList]
+print(pow2)
+
+A.  [2, 4, 6, 8, 10, 12, 14]
+C.  [2, 4, 8, 16, 32, 64, 128]
+
+10. What is the output of the following list function?
+
+sampleList = [10, 20, 30, 40, 50]
+sampleList.append(60)
+print(sampleList)
+
+sampleList.append(60)
+print(sampleList)
+
+A.  [10, 20, 30, 40, 50, 60]
+      [10, 20, 30, 40, 50, 60]
+B.  [10, 20, 30, 40, 50, 60]
+      [10, 20, 30, 40, 50, 60, 60]
+
+11. What is the output of the following list comprehension
+
+resList = [x+y for x in ['Hello ', 'Good '] for y in ['Dear', 'Bye']]
+print(resList)
+
+A.  [ Hello Dear ,  Hello Bye ,  Good Dear ,  Good Bye ]
+B.  [ Hello Dear ,  Good Dear ,  Hello Bye ,  Good Bye ]
+
+12. Select all the correct options to join two lists in Python
+
+listOne  =  ['a', 'b', 'c', 'd']
+listTwo =  ['e', 'f', 'g']
+
+A. newList = listOne + listTwo
+B. newList = extend(listOne, listTwo)
+C. newList = listOne.extend(listTwo)
+D. newList.extend(listOne, listTwo)
+
+13. What is the output of the following list assignment
+
+aList = [4, 8, 12, 16]
+aList[1:4] = [20, 24, 28]
+print(aList)
+
+A.  [4, 20, 24, 28, 8, 12, 16]
+B.  [4, 20, 24, 28]
+
+14. What is the output of the following code
+
+my_list = ["Hello", "Python"]
+print("-".join(my_list))
+
+A.  HelloPython-
+B. Hello-Python
+C. -HelloPython
+
+15. What is the output of the following list operation
+
+aList = [10, 20, 30, 40, 50, 60, 70, 80]
+print(aList[2:5])
+print(aList[:4])
+print(aList[3:])
+
+A. [20, 30, 40, 50]
+     [10, 20, 30, 40]
+     [30, 40, 50, 60, 70, 80]
+B. [30, 40, 50]
+     [10, 20, 30, 40]
+     [40, 50, 60, 70, 80]
+16. What is the output of the following
+
+l = [None] * 10
+print(len(l))
+
+A. 10
+B. 0
+C. Syntax Error
